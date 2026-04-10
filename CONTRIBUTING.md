@@ -5,7 +5,7 @@ Thanks for considering a contribution. This is a small hobby project, so expecta
 ## Development setup
 
 ```bash
-git clone https://github.com/<your-user>/financial-dashboard.git
+git clone https://github.com/JaaasperLiu/financial-dashboard.git
 cd financial-dashboard
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate

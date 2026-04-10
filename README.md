@@ -21,7 +21,7 @@ A desktop financial dashboard for stocks, ETFs and crypto built with PyQt6 and Y
 Requires **Python 3.10+**.
 
 ```bash
-git clone https://github.com/<your-user>/financial-dashboard.git
+git clone https://github.com/JaaasperLiu/financial-dashboard.git
 cd financial-dashboard
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
@@ -116,4 +116,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © 2026 Jasper
+[MIT](LICENSE) © 2026 Jasper Liu
