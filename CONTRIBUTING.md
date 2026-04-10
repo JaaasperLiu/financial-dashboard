@@ -4,17 +4,22 @@ Thanks for considering a contribution. This is a small hobby project, so expecta
 
 ## Development setup
 
+The fastest path on macOS / Linux is the launcher script, which builds the venv and installs deps on first run:
+
+```bash
+git clone https://github.com/JaaasperLiu/financial-dashboard.git
+cd financial-dashboard
+./run.sh
+```
+
+If you'd rather manage the environment yourself (or are on Windows):
+
 ```bash
 git clone https://github.com/JaaasperLiu/financial-dashboard.git
 cd financial-dashboard
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt pytest
-```
-
-Run the app:
-
-```bash
 python main.py
 ```
 

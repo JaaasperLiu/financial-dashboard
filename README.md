@@ -20,6 +20,18 @@ A desktop financial dashboard for stocks, ETFs and crypto built with PyQt6 and Y
 
 Requires **Python 3.10+**.
 
+**Quick start (macOS / Linux):**
+
+```bash
+git clone https://github.com/JaaasperLiu/financial-dashboard.git
+cd financial-dashboard
+./run.sh
+```
+
+`run.sh` creates a local `.venv/`, installs dependencies from `requirements.txt`, and launches the app. On subsequent runs it reuses the venv and only reinstalls if `requirements.txt` has changed.
+
+**Manual setup** (if you prefer to manage the environment yourself, or on Windows):
+
 ```bash
 git clone https://github.com/JaaasperLiu/financial-dashboard.git
 cd financial-dashboard
@@ -44,6 +56,7 @@ On first launch the app seeds a default watchlist (`AAPL`, `MSFT`, `SPY`, `BTC-U
 ```
 financial-dashboard/
 ├── main.py                       # QApplication entry point
+├── run.sh                        # one-shot launcher (venv + deps + run)
 ├── requirements.txt
 ├── app/
 │   ├── config.py                 # paths, refresh intervals, defaults
